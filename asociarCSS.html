@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>asociar css</title>
-    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./style1.css" type="text/css">
     <style>
+        @import url(./style2.css);
         h1{
-            color: blue;
+            color: orange;
         }
     </style>
 </head>
 <body style="background-color: bisque;">
-    <h1>Titulo h1</h1>
-    <p>Hola</p>
-    <h2>asdf</h2>
+    <h1>H1 está con CSS &lt;style&gt;</h1>
+    <h2>H2 está con CSS link</h2>
+    <p>El fondo está puesto con CSS a través de style=" " en el body y el color del
+         texto está puesto con CSS @import url.</p>
 </body>
 </html>
