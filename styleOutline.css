@@ -1,0 +1,19 @@
+div{
+    margin: 20px;
+    outline-style: dotted;
+    outline-width: 10px;
+    outline-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+div:hover{
+    outline-color: black;
+    outline-width: 6px;
+}
+
+div:active{
+    outline-color: purple;
+    outline-width: 15px;
+}
