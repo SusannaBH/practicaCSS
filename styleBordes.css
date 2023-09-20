@@ -1,0 +1,10 @@
+#border{
+    width: 300px;
+    padding: 30px;
+    margin: 30px;
+    border-left: double black 10px;
+    border-top: dotted green 10px;
+    border-right: dashed blue 10px;
+    border-bottom: solid red 10px;
+    
+}
