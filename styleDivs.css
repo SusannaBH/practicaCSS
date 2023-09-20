@@ -1,0 +1,38 @@
+.div1{
+    position: absolute;
+    top: -5%;
+    left: -5%;
+}
+.div2{
+    position: absolute;
+    top: -5%;
+    right: -5%;
+}
+.div3{
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+    
+}
+.div4{
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+}
+
+#circle{
+    background-color: greenyellow;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 50%;
+}
+
+#square{
+    position: absolute;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+}
