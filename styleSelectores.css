@@ -1,0 +1,84 @@
+/* 1. Selecciona todos los elementos */
+*{
+    background-color: aqua;
+}
+
+/* 2. Selecciona todos los elementos que sean de tipo P */
+p{
+    color: purple;
+}
+
+/* 3. Selecciona el elemento con ID title-1 */
+#title-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 4. Selecciona todos los elementos que pertenezca a la clase .bg-yellow */
+.bg-yellow{
+    color: violet;
+}
+
+/* 5. Selecciona todos los elementos que tengan el atributo ID */
+[id]{
+    color: yellow;
+}
+
+/* 6. Selecciona todos los elementos que tengan el atributo ID y como valor title-1 */
+[id=title-1]{
+    font-size: 50px;
+}
+
+/* 7. Selecciona todos los elementos que tengan el atributo HREF con un valor https://www.yahoo.com */
+[href="https://www.yahoo.com"]{
+    color: peachpuff;
+}
+
+/* 8. Selecciona todos los elementos que tengan el atributo class con un valor que empiece por title */
+[class^=title]{
+    color: yellowgreen;
+}
+
+/* 9. Selecciona todos los elementos que tengan el atributo HREF y que acaben en .com */
+[href$=".com"]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 10. Selecciona todos los elementos que tengan el atributo class con un valor title, title-1, title-2... */
+[class|=title]{
+    background-color: tomato;
+}
+
+/* 11. Selecciona todos los elementos que tengan un atributo href y cuyo valor contenga 127 */
+[href*="127"]{
+    color: black;
+}
+
+/* 12. Selecciona todos los elementos que tengan el atributo href y cuyo valor empieze por http */
+[href^="http"]{
+    background-color: chartreuse;
+}
+
+/* 13. Selecciona los elementos que sean A, P, o H1 desde una única regla CSS */
+a, p, h1{
+    font-family: cursive;
+}
+
+/* 14. Selecciona todos los elementos que pertezcan a main y que sean P */
+main > p{
+    font-size: 20px;
+}
+
+/* 15. Selecciona el siguiente elemento que sea hermano de H1 */
+h1 + p{
+    background-color: cadetblue;
+}
+
+/* 16. Selecciona todos los elementos que sean hermanos de H1 */
+h1 ~ ol{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 17. Selecciona todos los elementos hijos directos de main */
+main > h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
