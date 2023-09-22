@@ -1,0 +1,19 @@
+p{
+    width: 400px;
+    height: auto;
+}
+
+img{
+    margin: auto;
+    width: 500px;
+}
+
+.text{
+    font-size: 13px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: burlywood;
+}
