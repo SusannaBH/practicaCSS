@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: aqua;
+    height: 20vh;
+}
+
+nav{
+    background-color: violet;
+    height: 5vh;
+}
+
+section{
+    background-color: springgreen;
+    height: 60vh;
+    width: 62%;
+}
+
+aside{
+    background-color: chocolate;
+    height: 60vh;
+    width: 35%;
+}
+
+footer{
+    background-color: deeppink;
+    height: 15vh;
+}

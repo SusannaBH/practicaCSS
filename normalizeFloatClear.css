@@ -1,0 +1,19 @@
+header{
+    float: inline-start;
+}
+
+nav{
+    float: initial;
+}
+
+section{
+    float: left;
+}
+
+aside{
+    float: right;
+}
+
+footer{
+    clear: both;
+}
