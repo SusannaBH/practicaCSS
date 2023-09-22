@@ -1,0 +1,102 @@
+.red{
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin: 50px;
+}
+
+.white{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin: 50px;
+}
+
+#div1{
+    height: 30px;
+    width: 30px;
+    z-index: 90;
+    top: 80px;
+    left: 80px;
+}
+
+#div2{
+    height: 50px;
+    width: 50px;
+    z-index: 80;
+    top: 70px;
+    left: 70px;
+}
+#div3{
+    height: 70px;
+    width: 70px;
+    z-index: 70;
+    top: 60px;
+    left: 60px;
+}
+#div4{
+    height: 90px;
+    width: 90px;
+    z-index: 60;
+    top: 50px;
+    left: 50px;
+}
+#div5{
+    height: 110px;
+    width: 110px;
+    z-index: 50;
+    top: 40px;
+    left: 40px;
+}
+#div6{
+    height: 130px;
+    width: 130px;
+    z-index: 40;
+    top: 30px;
+    left: 30px;
+}
+#div7{
+    height: 150px;
+    width: 150px;
+    z-index: 30;
+    top: 20px;
+    left: 20px;
+}
+#div8{
+    height: 170px;
+    width: 170px;
+    z-index: 20;
+    top: 10px;
+    left: 10px;
+}
+#div9{
+    height: 190px;
+    width: 190px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    outline: dotted 3px black;
+    box-shadow: red 0px 0px 50px;
+
+}
+
+#vertical{
+    border-right: black solid 1.5px;
+    height: 190px;
+    width: 95px;
+    margin: 42px;
+    position: absolute;
+    z-index: 100;
+    
+
+}
+
+#horizontal{
+    border-bottom: black solid 1.5px;
+    height: 95px;
+    width: 190px;
+    margin: 42px;
+    position: absolute;
+    z-index: 100;
+}
+
