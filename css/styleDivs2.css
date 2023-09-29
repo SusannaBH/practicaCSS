@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+#icons, h2{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 30%;
+    border: solid 3px white;
+    width: 30vh;
+    height: 15vh;
+}
+button:hover{
+    border-color: deeppink;
+    background-color: white;
+}
+.container1, .container2, .container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
