@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    display: flex;
+    flex-direction: row;
 }
 #icons, h2{
     font-size: 2rem;
@@ -12,17 +14,34 @@ p{
 button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
-    border-radius: 30%;
+    border-radius: 25%;
     border: solid 3px white;
-    width: 30vh;
-    height: 15vh;
+    width: 110px;
+    height: 40px;
 }
 button:hover{
-    border-color: deeppink;
+    border-color: rosybrown;
     background-color: white;
 }
+.container1{
+    background-color: orange;
+}
+.container2{
+    background-color: cadetblue;
+}
+.container3{
+    background-color: midnightblue;
+}
 .container1, .container2, .container3{
+    padding: 35px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
+}
+@media (width <= 320px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
 }
