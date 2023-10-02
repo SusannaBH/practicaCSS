@@ -1,0 +1,15 @@
+body{
+    background-color: burlywood;
+}
+h1:hover{
+    color: brown;
+}
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: solid 2px brown;
+}
+p:active{
+    color: burlywood;
+    background-color: midnightblue;
+}
